@@ -1,0 +1,6 @@
+- name: Blog
+  link: /blog/
+- name: Nuestra Historia
+  link: /about/
+- name: Contacto
+  link: /contact/

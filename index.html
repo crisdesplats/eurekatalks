@@ -1,0 +1,81 @@
+---
+title: Home
+description: The latest app to help you find new friends with common interests.
+image: images/landing.jpg
+bottom_image: images/landing-footer.jpg
+---
+
+<section class="hero" style="background-image: url({% include relative-src.html src=page.image %})">
+	<div class="inner-hero text-container">
+		<div class="hero-text-container">
+			<h1 class="editable" id="landing-title" style="display: none;">Pensar sin límites</h1>
+			<p class="subtext editable" id="landing-content" style="display: none;">
+				Cuestionamos y desafiamos lo cotidiano a través de la motivación. Impulsamos el constante cambio desarrollando una nueva perspectiva de análisis a través de nuestras exposiciones.
+			</p>
+			<!--div class="cta button alt"><a href="#">Join Now</a></div-->
+		</div>
+	</div>
+	<div class="learn-more"><a href="#learn-more">Leer más <span class="arrow">&#x25BC;</span></a></div>
+</section>
+
+<div class="content">
+	<!--section class="info" id="learn-more">
+		<div class="container flex">
+			<div class="text">
+				<h3 class="editable">Equipos comerciales</h3>
+				<p class="editable">Emprendedores, Motivadores en constante cambio y en busca de la mejora continua.</p>
+			</div>
+			<div class="image">
+				<img class="editable" src="http://placehold.it/650x1300" alt="Screenshot" />
+			</div>
+		</div>
+	</section>
+
+	<section class="info">
+		<div class="container flex">
+			<div class="text">
+				<h3 class="editable">Trabajo en equipo</h3>
+				<p class="editable">Colaborar con el desarrollo de un pensamiento motivador en busqueda de la mejora constante y el cambio para el desarrollo de una perspectiva diferente.</p>
+			</div>
+			<div class="image">
+				<img class="editable" src="http://placehold.it/650x1300" alt="Screenshot" />
+			</div>
+		</div>
+	</section>
+
+	<section class="info">
+		<div class="container flex">
+			<div class="text">
+				<h3 class="editable">Liderazgo</h3>
+				<p class="editable">Frisco shows you cards with people who might be a good match for friendship. Swipe left to move to the next card or right to start talking.</p>
+			</div>
+			<div class="image">
+				<img class="editable" src="http://placehold.it/650x1300" alt="Screenshot" />
+			</div>
+		</div>
+	</section-->
+	<section class="pad" id="learn-more">
+			<div class="container">
+				<p class="editor-link"><a href="cloudcannon:collections/_talks" class="btn"><strong>&#9998;</strong> Manage Staff Members</a></p>
+				<ul class="staff">
+					{% for person in site.talks %}
+						<li>
+							<div class="square-image" style="background-image: url({% include relative-src.html src=person.image_path %})"></div>
+							<div class="name"><a target="_blank" href="https://twitter.com/{{ person.twitter_username }}">{{ person.name }}</a></div>
+							<div class="position">{{ person.blurb }}</div>
+						</li>
+					{% endfor %}
+				</ul>
+			</div>
+		</section>
+
+	<section class="hero" style="background-image: url({% include relative-src.html src=page.bottom_image %})">
+		<div class="inner-hero text-container">
+			<div class="hero-text-container">
+				<h2 class="editable">Find your buddy today</h2>
+				<p class="subtext editable">It's free, fun and an exciting way to meet new people.</p>
+				<div class="cta button alt"><a href="#">Join Now</a></div>
+			</div>
+		</div>
+	</section>
+</div>
