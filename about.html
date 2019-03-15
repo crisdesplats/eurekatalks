@@ -1,14 +1,14 @@
 ---
 title: About
 description: We've built an amazing team of developers, marketers, designers and sales people.
-image: https://source.unsplash.com/BcoGknSqlDc/2000x1322?a=.png
+image: /images/team.jpg
 ---
 
 <section class="hero" style="background-image: url({% include relative-src.html src=page.image %})">
 	<div class="inner-hero text-container">
 		<div class="hero-text-container">
-			<h1 class="editable">Nuestra Historia</h1>
-			<p class="subtext editable">We have an extremely talented team whose sole goal is to bring you closer to the people around you.</p>
+			<h1 class="editable">EL TEAM</h1>
+			<p class="subtext editable">Somo un grupo de profesionales apasionados por los desafíos, motivados por la innovación y los pensamientos fuera de la zona de confort </p>
 		</div>
 	</div>
 </section>
@@ -22,6 +22,7 @@ image: https://source.unsplash.com/BcoGknSqlDc/2000x1322?a=.png
 					<div class="square-image" style="background-image: url({% include relative-src.html src=person.image_path %})"></div>
 					<div class="name"><a target="_blank" href="https://twitter.com/{{ person.twitter_username }}">{{ person.name }}</a></div>
 					<div class="position">{{ person.position }}</div>
+					<div class="">{{ person.blurb }}</div>
 				</li>
 			{% endfor %}
 		</ul>
