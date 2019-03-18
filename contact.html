@@ -6,23 +6,24 @@ map:
   longitude: 170.5027976
   address: "1 George Street, Dunedin, New Zealand"
   zoom: 13
-image: https://source.unsplash.com/WNAO036c6FM/2000x1322?a=.png
+image: /images/contact.jpg
 ---
 
 <section class="hero" style="background-image: url({% include relative-src.html src=page.image %})">
 	<div class="inner-hero text-container">
 		<div class="hero-text-container">
-			<h1 class="editable">Envíanos un mensaje</h1>
-			<p class="subtext editable">If you have any questions or queries send us a message and we'll get back to you as soon as we can.</p>
+			<h1 class="editable">Envíenos un mensaje</h1>
+			<p class="subtext editable">Comuníquese con nosotros, completando nuestro el formulario que se encuentra más abajo.</p>
 		</div>
 	</div>
 </section>
 
 <section class="pad">
 	<div class="text-container contact-box">
-		<form action="https://formspree.io/info@eurekatoc.com" method="post" class="contact-form">
-			<input type="hidden" name="_to" value="support@cloudcannon.com">
-			<input type="text" name="_gotcha" style="display: none;">
+		<form action="" method="post" class="contact-form" id="contact-form">
+			<!--input type="hidden" name="_to" value="support@cloudcannon.com"-->
+			<!--input type="text" name="_gotcha" style="display: none;"-->
+			<input type='hidden' name='redirect_to' value='./contact-success/' />
 
 			<label for="name">Nombre</label>
 			<input type="text" name="name" id="name" placeholder="Ingrese su Nombre...">
@@ -33,26 +34,45 @@ image: https://source.unsplash.com/WNAO036c6FM/2000x1322?a=.png
 			<label for="message">Mensaje</label>
 			<textarea name="message" id="message" placeholder="Mensaje..."></textarea>
 
-			<input type="text" name="_gotcha" style="display:none">
- 			<input type="hidden" name="_subject" value="Message via http://crisdesplats.github.io">
-
 			<input type="submit" value="Enviar Mensaje">
 		</form>
 
-		<div class="contact-details">
+		<!--div class="contact-details">
 			<h2>Contactanos</h2>
-			<h3>Dirección</h3>
+			<!--h3>Dirección</h3>
 			<address><a target="_blank" href="https://www.google.com/maps/place/{{ page.map.address | url_encode }}">{{ page.map.address | replace: ", ", ", <br>" }}</a></address>
 			<h3>Teléfono</h3>
 			<p class="editable">+54-9-11-4444-4444</p>
 			<h3>Email</h3>
 			<p class="editable"><a href="mailto:support@example.com">info@eurekatoc.com</a></p>
-		</div>
+		</div-->
 	</div>
 </section>
 
-<!--div class="map" id="map"></div-->
+<script>
+	function SendEmail() {
+	  // API: https://www.emailjs.com/
+	  emailjs.send(
+		"smtp_server", "template_HEvhLTZV",
+		{
+		  name: document.getElementById("name").value,
+		  message: document.getElementById("message").value,
+		  email: document.getElementById("email").value
+		}
+		);
+	}
+ 
+	document.getElementById("contact-form").addEventListener("submit", function(event){
+		event.preventDefault();
+		SendEmail();
+		setTimeout(function(){
+		  window.location = "/contact-success/";
+		 }, 1000);
+		// alert('Done!');
+	});
+  </script>
 
+<!--div class="map" id="map"></div-->
 <script>
 	window.mapData = {{ page.map | jsonify }};
 

@@ -15,6 +15,13 @@
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300|Rubik:300">
 		<link rel="stylesheet" href="{{ site.baseurl }}/css/screen.css">
 
+		<script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+			<script type="text/javascript">
+			(function(){
+				emailjs.init("user_pAO1r5yAtyfNzJUHuKjnR");
+			})();
+		</script>
+
 		{% if jekyll.environment == 'production' and site.google_analytics_key != '' %}
 			<script>
 				window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
