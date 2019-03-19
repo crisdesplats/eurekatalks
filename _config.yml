@@ -1,10 +1,10 @@
 # ----
 # Site
 
-title: eurekaTOC
+title: eurekatoc
 url: "https://crisdesplats.github.io"
 baseurl:
-google_analytics_key:
+google_analytics_key: UA-136243569-1
 google_maps_javascript_api_key:
 disqus_shortname: eurekatoc
 
