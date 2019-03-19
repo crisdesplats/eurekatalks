@@ -4,18 +4,18 @@ description: We've built an amazing team of developers, marketers, designers and
 image: /images/team.jpg
 ---
 
-<section class="hero" style="background-image: url({% include relative-src.html src=page.image %})">
-	<div class="inner-hero text-container">
-		<div class="hero-text-container">
-			<h1 class="editable">EL TEAM</h1>
-			<p class="subtext editable">Somo un grupo de profesionales apasionados por los desafíos, motivados por la innovación y los pensamientos fuera de la zona de confort </p>
-		</div>
-	</div>
+<section class="hero-header" style="background-image: url({% include relative-src.html src=page.image %})">
+		<div class="inner-hero text-container">
+				<div class="hero-text-container">
+					<h1 class="editable">Nosotros</h1>
+					<!--p class="subtext editable">Comuníquese con nosotros, completando nuestro el formulario que se encuentra más abajo.</p-->
+				</div>
+			</div>
 </section>
 
 <section class="pad">
 	<div class="container">
-		<p class="editor-link"><a href="cloudcannon:collections/_staff_members" class="btn"><strong>&#9998;</strong> Manage Staff Members</a></p>
+		<h3 class="editable">Conozca a nuestros conferencistas</h3>
 		<ul class="staff">
 			{% for person in site.staff_members %}
 				<li>

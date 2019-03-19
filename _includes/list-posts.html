@@ -1,10 +1,16 @@
 {% for post in include.posts %}
-	<li class="blog-post">
-		<h2><a href="{% include relative-src.html src=post.url %}">{{ post.title }}</a></h2>
-		{% include post-title.html post=post %}
-		<div class="post-content">
-			{{ post.excerpt }}
-			<div class="button"><a href="{% include relative-src.html src=post.url %}">Read More</a></div>
+	<li class="container">
+		<p>
+			<a href="{% include relative-src.html src=post.url %}">
+				<img src="{% include relative-src.html src=post.image %}" alt="" style=" max-width: 100%;height: auto;">
+			</a>
+		</p>
+		<!--div class="square-image" style="background-image: url({% include relative-src.html src=post.image %})"></div-->
+		<div class="name2"><a href="{% include relative-src.html src=post.url %}">{{ post.title }}</a></div>
+		<!--{% include post-title.html post=post %}-->
+		<div class="position">
+			{{ post.description }}
+			<!--div class="button"><a href="{% include relative-src.html src=post.url %}">Read More</a></div-->
 		</div>
 	</li>
 {% endfor %}
