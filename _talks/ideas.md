@@ -1,5 +1,5 @@
 ---
-name: Ejecución de ideas y romper paradigmas
+name: Romper paradigmas
 image_path: /images/rugby.jpg
 twitter_username: CloudCannonApp
 blurb: Potenciamos los equipos comerciales desde los desafíos a las personas en cada una de nuestras charlas
