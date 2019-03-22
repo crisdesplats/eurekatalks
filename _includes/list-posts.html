@@ -1,11 +1,11 @@
 {% for post in include.posts %}
 	<li class="container">
-		<p>
+		<!--p>
 			<a href="{% include relative-src.html src=post.url %}">
 				<img src="{% include relative-src.html src=post.image %}" alt="" style=" max-width: 100%;height: auto;">
 			</a>
-		</p>
-		<!--div class="square-image" style="background-image: url({% include relative-src.html src=post.image %})"></div-->
+		</p-->
+		<div class="square-image" style="background-image: url({% include relative-src.html src=post.image %})"></div>
 		<div class="name2"><a href="{% include relative-src.html src=post.url %}">{{ post.title }}</a></div>
 		<!--{% include post-title.html post=post %}-->
 		<div class="position">
