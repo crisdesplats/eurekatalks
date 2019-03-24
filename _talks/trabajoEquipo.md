@@ -1,6 +1,6 @@
 ---
 name: Trabajo en Equipo
-image_path: /images/rugby.jpg
+image_path: /images/teamwork.jpg
 twitter_username: CloudCannonApp
-blurb: Potenciamos los equipos comerciales desde los desafíos a las personas en cada una de nuestras charlas
+blurb: Mío o Nuestro
 ---

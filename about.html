@@ -15,13 +15,20 @@ image: /images/team.jpg
 
 <section class="pad">
 	<div class="container">
-		<h3 class="editable">Conozca a nuestros conferencistas</h3>
+		<p class="editable">​El equipo de <span style="font-weight:bold">EurekaTOC</span> se compone de profesionales con más de 50 años de experiencia
+			combinada entre distintos y diversos backgorunds. Estos incluyen Ingeniería de procesos, Capacitación
+			en manejo de plataformas, Ingeniería en sistemas, manejo de equipos de ventas,
+			planificación de marketing, liderazgo, estrategias financieras, estrategias de management.
+		<br/>
+			Tenemos un profundo conocimiento de las problemáticas profesionales actuales y
+los desafíos que se plantean a futuro. Con una propuesta distinta a nuestros clientes les ofrecemos la
+posibilidad de esperar resultados diferentes.
+		</p>
 		<ul class="staff">
 			{% for person in site.staff_members %}
 				<li>
 					<div class="square-image" style="background-image: url({% include relative-src.html src=person.image_path %})"></div>
-					<div class="name"><a target="_blank" href="https://twitter.com/{{ person.twitter_username }}">{{ person.name }}</a></div>
-					<div class="position">{{ person.position }}</div>
+					<div class="name" style="font-weight: bold">{{ person.name }}</div>				
 					<div class="">{{ person.blurb }}</div>
 				</li>
 			{% endfor %}
