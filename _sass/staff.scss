@@ -44,11 +44,10 @@
 		display: flex;
     flex-flow: row wrap;
     list-style: none;
-    margin: 32px 0;
+    
 	  }
 	li {
 		margin: 0 10px;
-		flex-basis: calc(25% - 20px);  /* width minus margins *5 */
 		padding: 30px 20px;
 		box-sizing: border-box;
 		width: 100%;
