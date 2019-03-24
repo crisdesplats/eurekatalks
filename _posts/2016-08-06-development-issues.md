@@ -1,5 +1,5 @@
 ---
-title: Development Issues Editado
+title: Development Issues Editado 2
 date: 2016-08-06 00:00:00 +0000
 description: How do development issues affect friendship?
 categories:
