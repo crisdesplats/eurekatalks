@@ -7,6 +7,6 @@ categories: []
 author_staff_member: 1_martin
 
 ---
-Probando el Blog a ver como funciona con fotos
+Probando el Blog a ver como funciona con fotos 2
 
-![](eurekatoc/uploads/landing.jpg)asassasa![](uploads/landing.jpg)sa
+![](//eurekatoc.com/uploads/landing.jpg)
