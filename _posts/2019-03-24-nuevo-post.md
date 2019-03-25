@@ -8,3 +8,5 @@ author_staff_member: 1_martin
 
 ---
 Probando el Blog a ver como funciona
+
+![](/uploads/landing.jpg)
