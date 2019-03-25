@@ -7,6 +7,6 @@ categories: []
 author_staff_member: 1_martin
 
 ---
-Probando el Blog a ver como funciona
+Probando el Blog a ver como funciona con fotos
 
 ![](/uploads/landing.jpg)
