@@ -4,7 +4,7 @@ description: Existe el trabajo en equipo? Existen de verdad los objetivos comune
   Trabajan los individuos en el objetivo comun mas alla del objetivo personal? Se
   recompenza a las personas de esta manera? Existen lideres que sepan equilibrar estos
   objetivos?
-image: ''
+image: url(eurekatoc.com/images/teamwork.jpg)
 date: 2019-03-25 00:00:00 -0300
 categories: []
 author_staff_member: ''
