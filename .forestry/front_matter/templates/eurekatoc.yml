@@ -33,4 +33,5 @@ fields:
   hidden: false
   default: ''
 pages:
+- _posts/en-los-equipos-la-realidad-siempre-supera-a-la-teoria.md
 - _posts/2019-03-24-nuevo-post.md
