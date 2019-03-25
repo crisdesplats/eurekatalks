@@ -24,7 +24,7 @@ image: /images/contact.jpg
 		<form action="" method="post" class="contact-form" id="contact-form">
 			<!--input type="hidden" name="_to" value="support@cloudcannon.com"-->
 			<!--input type="text" name="_gotcha" style="display: none;"-->
-			<input type='hidden' name='redirect_to' value='./contact-success/' />
+			<input type='hidden' name='redirect_to' value='{{ site.baseurl }}/contact-success/' />
 
 			<label for="name">Nombre</label>
 			<input type="text" name="name" id="name" placeholder="Ingrese su Nombre...">
