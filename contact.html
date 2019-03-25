@@ -67,7 +67,7 @@ image: /images/contact.jpg
 		event.preventDefault();
 		SendEmail();
 		setTimeout(function(){
-		  window.location = "./contact-success/";
+		  window.location = "{{ site.baseurl }}/contact-success/";
 		 }, 1000);
 		// alert('Done!');
 	});
