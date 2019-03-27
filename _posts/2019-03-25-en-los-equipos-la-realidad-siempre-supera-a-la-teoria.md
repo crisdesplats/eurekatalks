@@ -11,6 +11,8 @@ categories:
   - team
   - equipos
   - eurekatoc 
+  - liderazgo
+  - trabajo en equipo
 author_staff_member: ''
 
 ---
