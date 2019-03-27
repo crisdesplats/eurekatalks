@@ -1,7 +1,7 @@
 ---
 name: Matias Barros
 position: CEO
-image_path: https://source.unsplash.com/collection/139386/604x604?a=.png
+image_path: /images/cv/matias_cv.jpg
 twitter_username: CloudCannonApp
-blurb: 
+blurb: Ingeniero Industrila, UCA | Profesor Adjunto Facultad de Ingenieria, UCA |
 ---

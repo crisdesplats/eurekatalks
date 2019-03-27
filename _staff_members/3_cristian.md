@@ -1,7 +1,7 @@
 ---
 name: Cristian Desplats
 position: CTO
-image_path: https://source.unsplash.com/collection/139386/605x605?a=.png
+image_path: /images/cv/cristian_cv.jpg
 twitter_username: CloudCannonApp
-blurb: 
+blurb: Licenciado en Análisis de Sistemas, UBA | Profesor Adjunto Facultad de Ingenieria, UBA | 9 años de experiencia corporativa, especializado en Administración de Proyectos y optimización de Procesos
 ---
