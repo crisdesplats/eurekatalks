@@ -1,9 +1,11 @@
 <p class="post-details">
 	{% for category in include.post.categories %}
 		<span class="blog-filter">
+			<!--TODO: Corregir las categorías-->
 			<!--a href="{{ site.baseurl }}/category/{{ category | slugify }}/"-->
+			<a href="#">
 				{{ category | capitalize }}
-			<!--/a-->
+			</a>
 		</span>
 	{% endfor %}
 	<span class="post-date">{{ include.post.date | date: "%B %d, %Y" }}</span>
