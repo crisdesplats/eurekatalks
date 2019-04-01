@@ -6,7 +6,13 @@ description: Existe el trabajo en equipo? Existen de verdad los objetivos comune
   objetivos?
 image: https://eurekatoc.com/images/teamwork.jpg
 date: 2019-03-25 00:00:00 -0300
-categories: [teamwork,team,equipos,eurekatoc,liderazdo,trabajo en equipo]
+categories: 
+  - teamwork
+  - team
+  - equipos
+  - eurekatoc 
+  - liderazgo
+  - trabajo en equipo
 author_staff_member: ''
 
 ---
