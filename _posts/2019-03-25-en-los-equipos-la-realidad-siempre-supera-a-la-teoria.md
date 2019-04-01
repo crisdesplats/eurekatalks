@@ -10,7 +10,7 @@ categories:
   - teamwork
   - team
   - equipos
-  - eurekatoc 
+  - eurekatoc.com
   - liderazgo
   - trabajo en equipo
 author_staff_member: ''
