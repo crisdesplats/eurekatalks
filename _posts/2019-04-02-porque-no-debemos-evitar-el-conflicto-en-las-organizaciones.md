@@ -2,7 +2,7 @@
 title: Porque no debemos evitar el conflicto en las organizaciones
 description: Cuando las organizaciones evitan el conflicto, están perdiendo en productividad
   e innovación
-image: ''
+image: https://eurekatoc.com/uploads/estirar.jpg
 date: 2019-04-02 00:00:00 -0300
 categories: []
 author_staff_member: Martin Gomez Tena
