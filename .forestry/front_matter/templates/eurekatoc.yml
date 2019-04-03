@@ -33,4 +33,5 @@ fields:
   hidden: false
   default: ''
 pages:
+- _posts/porque-no-debemos-evitar-el-conflicto-en-las-organizaciones.md
 - _posts/2019-03-25-en-los-equipos-la-realidad-siempre-supera-a-la-teoria.md
