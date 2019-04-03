@@ -8,7 +8,7 @@ categories: []
 author_staff_member: Martin Gomez Tena
 
 ---
-Hace un tiempo trabaje con un grupo de médicos para ayudarlos a mejorar su relación y volver a ser productivos en su trabajo. Ellos estaban en un momento en que casi ni se hablaban, ni se miraban. Después de pasar un par de horas con ellos estaba claro para mi lo que pasaba y cual era el diagnostico: "Uds necesitan resolver sus conflicto".
+Hace un tiempo trabaje con un grupo de médicos para ayudarlos a mejorar su relación y volver a ser productivos en su trabajo. Ellos estaban en un momento en que casi ni se hablaban, ni se miraban. Después de pasar un par de horas con ellos estaba claro para mi lo que pasaba y cual era el diagnostico: "Uds necesitan mas conflicto".
 
 Era lo ultimo que esperaban escucharme decir. Estaban agonizando tratando de lidiar con las decisiones mas pequeñas. Cada reunión era una mezcla tembladero de bronca, culpa y frustración. Como podía ser que necesitaran mas conflicto?
 
