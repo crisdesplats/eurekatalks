@@ -2,10 +2,10 @@
 title: Porque no debemos evitar el conflicto en las organizaciones
 description: Cuando las organizaciones evitan el conflicto, están perdiendo en productividad
   e innovación
-image: https://eurekatoc.com/images/Estirar.jpg
+image: https://eurekatoc.com/images/conflic_pic.jpg
 date: 2019-04-02 03:00:00 +0000
 categories: []
-author_staff_member: Martin Gomez Tena
+author_staff_member: 1_martin
 
 ---
 Hace un tiempo trabaje con un grupo de médicos para ayudarlos a mejorar su relación y volver a ser productivos en su trabajo. Ellos estaban en un momento en que casi ni se hablaban, ni se miraban. Después de pasar un par de horas con ellos estaba claro para mi lo que pasaba y cual era el diagnostico: "Uds necesitan mas conflicto".

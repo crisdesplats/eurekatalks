@@ -13,7 +13,7 @@ categories:
   - eurekatoc.com
   - liderazgo
   - trabajo en equipo
-author_staff_member: ''
+author_staff_member: 1_martin
 
 ---
 En ningun caso voy a decir una verdad, es simplemente una mirada mas, no necesariamente propia, de un escenario cotidiano al que todos nos enfrentamos a diario. Es el constante deseo, y hasta un metodo cientifico, de indagar y cuestionar metodicamente todo lo que se pueda hacer diferente para obtener resultados diferentes.
