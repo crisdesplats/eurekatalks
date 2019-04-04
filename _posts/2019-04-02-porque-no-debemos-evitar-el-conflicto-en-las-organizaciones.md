@@ -4,7 +4,19 @@ description: Cuando las organizaciones evitan el conflicto, están perdiendo en 
   e innovación
 image: https://eurekatoc.com/images/conflict_pic.jpg
 date: 2019-04-02 03:00:00 +0000
-categories: []
+categories:
+- conflicto
+- " manejo de conflictos"
+- " deuda de conflicto"
+- conflicto en los equipos
+- conflicto en las empresas
+- bronca
+- " culpa"
+- " frustracion"
+- estrategia de ventas
+- " estrategia de precios"
+- " distribucion de recursos"
+- trabajo en equipo
 author_staff_member: 1_martin
 
 ---
