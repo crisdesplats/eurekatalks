@@ -21,7 +21,7 @@ image: /images/contact.jpg
 <section class="pad">
 	<div class="text-container contact-box">
 		<h3 class="editable">Formulario de Contacto</h3>
-		<form action="" method="post" class="contact-form" id="contact-form">
+		<form action="https://formspree.io/info@eurekatoc.com"" method="post" class="contact-form" id="contact-form">
 			<!--input type="hidden" name="_to" value="support@cloudcannon.com"-->
 			<!--input type="text" name="_gotcha" style="display: none;"-->
 			<input type='hidden' name='redirect_to' value='{{ site.baseurl }}/contact-success/' />
@@ -34,6 +34,8 @@ image: /images/contact.jpg
 
 			<label for="message">Mensaje</label>
 			<textarea name="message" id="message" placeholder="Mensaje..."></textarea>
+
+			<input type="hidden" name="_next" value="{{ site.baseurl }}/contact-success/" />
 
 			<input type="submit" value="Enviar Mensaje">
 		</form>
@@ -51,6 +53,7 @@ image: /images/contact.jpg
 </section>
 
 <script>
+	/*
 	function SendEmail() {
 	  // API: https://www.emailjs.com/
 	  emailjs.send(
@@ -70,11 +73,12 @@ image: /images/contact.jpg
 		  window.location = "{{ site.baseurl }}/contact-success/";
 		 }, 1000);
 		// alert('Done!');
-	});
+	});*/
   </script>
 
 <!--div class="map" id="map"></div-->
 <script>
+	/*
 	window.mapData = {{ page.map | jsonify }};
 
 	function initMap() {
@@ -101,6 +105,6 @@ image: /images/contact.jpg
 		google.maps.event.addDomListener(window, 'resize', function() {
 			map.setCenter(myOptions.center);
 		});
-	}
+	}*/
 </script>
 <script async defer src="https://maps.googleapis.com/maps/api/js?key={{ site.google_maps_javascript_api_key }}&amp;callback=initMap"></script>
